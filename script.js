@@ -10,7 +10,7 @@ let game_over = false;
 // is this element in the 'cell' class?
 const is_cell = elem => elem.classList.contains('cell');
 
-const end_game = () => alert("Player " + player + " (" + get_player_mark() + ") " + won!");
+const end_game = () => alert("Player " + player + " (" + get_player_mark() + ") " + "won!");
 
 const preview_play = event => {
     if (is_cell(event.target) === false) return;
