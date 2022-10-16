@@ -1,0 +1,22 @@
+.cell {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: grey;
+    font-family: Arial;
+}
+
+.board {
+    margin: auto;
+    width: 94px;
+    height: 94px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    flex-wrap: wrap;
+}
